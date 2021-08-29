@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-position-y: top ;
+  background-color: rgb(194, 220, 238);
+}
+.wrapper{
+    border-radius: 10px;
+    width: 350px;
+    line-height: 1.7;
+    text-align: center;
+    background-color: #fff;
+}
+.hero{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+h1{
+    padding-top: 0 2rem;
+}
+.text{
+    padding: 1rem 2rem;
+}
+p{
+    color: rgb(130, 133, 133);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(229, 243, 248);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0 2rem;
+}
+.music{
+    display: flex;
+    align-items: center;
+}
+.cost{
+    margin-left: 1rem;
+}
+.buttons{
+    padding: 0 2rem;
+}
+button{
+    width: 100%;
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 1rem;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 1s;
+}
+.payment{
+    background: blue;
+    color: #fff;
+}
+.cancel{
+    background-color: rgb(229, 243, 248);
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(121, 170, 211) ;
+}
+main a{
+    transition: 1s;
+    font-weight: bold;
+}
+main a:hover{
+    color: rgb(75, 142, 197);
+    cursor: pointer;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+}
+footer a{
+    text-decoration: none;
+    margin: 5px;
+    color: blue;
+    transition: .5s;
+}
+footer a:hover{
+    color: rgb(75, 142, 197);
+    cursor: pointer;
+    transform: scale(1.1);
+}
